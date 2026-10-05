@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "world-music-os"
+version = "0.1.0"
+description = "Modular music discovery and market intelligence system with Spotify as a publishing destination"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "httpx>=0.27,<1",
+  "pydantic>=2.7,<3",
+  "python-dotenv>=1.0,<2",
+  "typer>=0.12,<1",
+  "rich>=13.7,<15",
+  "keyring>=25,<27",
+  "Pillow>=10,<13",
+  "tzdata>=2024.1,<2027",
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "SQLAlchemy>=2.0,<3",
+  "alembic>=1.14,<2",
+  "psycopg[binary]>=3.2,<4",
+  "pycountry>=24.6,<26",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+world-music-os = "app.cli:main"
+spotify-playlist-network = "app.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.setuptools.package-data]
+"app.world_music" = ["static/*.html", "static/*.css", "static/*.js"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

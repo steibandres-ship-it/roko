@@ -1,0 +1,689 @@
+{
+  "slug": "next-rock-generation",
+  "name": "Next Rock Generation",
+  "description": "New rock, indie and alternative from emerging artists worldwide. Follow for fresh voices, big guitars and a journey from first listen to full-volume finish.",
+  "public": true,
+  "target_tracks": 100,
+  "cover": "covers/next-rock-generation.jpg",
+  "tracks": [
+    {
+      "spotify_uri": "spotify:track:7b2caacNgQW74qGvNyVQo1",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5XhMgAWzou6EjDmQtoyoZE",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:4GKJALTXTwhZgLPp0usd5C",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:09ttHg3ZNVgDlYBZa1ZBw0",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:69rHKcrQpYGfToPThOV1UB",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:6n6GfXu4i22rdsmRKe2eIn",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0QfbuZrjcfyS8HqQ8d8xcs",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:33rsCCLHklTQav9klbpnAi",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:7fmpirJ2erxdswxKPB6CRp",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5bbObubVEesBvqXyXEITxa",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5UW4tA4j23YL6kDfRw3rWT",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:1k1Bqnv2R0uJXQN4u6LKYt",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5yz4ZfLeZ3VdqDM2l8wjjg",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0XMO3PiZ4gtXRvIJCgHsLl",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0bRXwKfigvpKZUurwqAlEh",
+      "priority": "anchor",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3D9mdn5PHmJ1Whf9JMiTnh",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:05ocFYOBFeX9BmN6AugxXN",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5GKBPdWbW4RQtx9VkQ6xKO",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5rgSeiUY9mLYn95UMrjALE",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5egD7A5x9AHdVO2fMo3Wbo",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0Crif1Dk3P6xvxWvMPux7c",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2Lb9ww5vZAnveWnrFQfAKR",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3U9GWaSeb9zBlImBSXcFFJ",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0O1n2bo2mTXTLkoo5rxV1W",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:26wlaTdnrLNmpz5usoU2T3",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0szij2qJqCH1PyrPfZcpi0",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5SrkQS5T1ZWO5U4lw7jFOV",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:1yxDPST7NSD1pR3LbrotY3",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:4LZxnlgJeHhfbCEE9chEyk",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:6FBjArwAxPHILY7WduhUfl",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:043TnILbwnO6PsRcNTZ6cP",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5xjtydC2u8tcpDsrF3vrMt",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:4oZFqhv200v5rOCPHfwIec",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3QEglzrnBHZg2yVGlo3G5j",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:7po8fAV1DCD6F0jmwX7kBP",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5bS6VIBCYdi9QL9T1upn3G",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:43bCmCI0nSgcT7QdMXY6LV",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:69BXiFcVyaSHegps0m1TCD",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:7cmjW1vZpkBz3yrfdYcZtP",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2iqF4C3733rvJy0QL4WExS",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3JPzP3I4ygLqESp9ZyvVJc",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5ejumlGhjjJQYRVoo9MqaZ",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5YBNaPFn9AK6uUvjPkNVqm",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2Ta9TcoDq9qgF2S86EZKbP",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0YP7z2pu53bik6uX7tfWPL",
+      "priority": "growth",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "artist": "Lambrini Girls",
+      "title": "Cuntology 101",
+      "spotify_uri": "spotify:track:3wCJGNuWIoeKHsrZdAybiO",
+      "priority": "discovery",
+      "locked": false,
+      "spotify_catalog_verified": true
+    },
+    {
+      "spotify_uri": "spotify:track:1eNERcMwfmtiFo8qzW5enn",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2R7mWpiyvaVyWOtOWS6vW9",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5yBnY7ee24l8yUTBvtaVko",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2tGbxb5gjmzZVrAgNGMZt1",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2jnezASa7o0lP6aif6VrIf",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5Ryu0SlsYjKh78RkJUONFr",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:20oVyPvaVROUvQi0Z9vgWg",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:06BY7fb0Ztz7f7JPRWSBZ3",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3BCQW29mk4HJTypRKVLEqQ",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0u4c03nZViMLSJuYwxuGZO",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:1n8wr8tRHs5jmBxNWXedcn",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:4GVD0FIBo08FSAy3tbIY7g",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2G1O1E91aRpIX5r6ngW51V",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2HO8qO7LuY8NoFU3cFTgTM",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:41mzryVlFLlz6b1BCtJAjx",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0jLI321jsZIowMb796F9ct",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0AI8wjlMUlq6onNi2XXaI8",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5JrQ1Jc3udCcAJasEpH0Ov",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3lKQa3ogkLniPYoKK5qMuV",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:7qpZh0yIXeZzXZk3mE6Fj9",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0ldvmjY7KZIdGE3wmG8H5P",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:4rbsrWIFyPwBZDlhpiOb3Z",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5ZAMlvo6ZUjVRZOGu2bJib",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3Hsi2rb1FZwccWyrTEMnlr",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2g6zbVqZvnc1dk6cYUhr5g",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:66aEfQ4htWHwEaiW99otVi",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:55t0oslolWtghfZX5VAJ9X",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5LUYSbvpy83r3WvV8n7MZy",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:7hOSN3o2LSbsFJaZKIFUpu",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:38uL88y9Wh4wZ0S6Jpz0tH",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2HBtd9MYDd2xDVu8Zc6pwt",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:6dXjUMjFxfAX4F2dHKqQzf",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:70B3eWw0ivRKxEvbbHQcjs",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0F1rlXkOcI1Iqfz9Y3BdO4",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3fjmSxt0PskST13CSdBUFx",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:1158ckiB5S4cpsdYHDB9IF",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:4Yf5bqU3NK4kNOypcrLYwU",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2mIrfke7vosXAEWfz6ucyo",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:6Q7POvDeFGVFDYPmz7huYP",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:4UaYeoRZVif641P0FcgkNL",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:2nMeu6UenVvwUktBCpLMK9",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:4vYazVB0YNgKBjG3EQmT02",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:63jpEaRkGiUGvhnC9tRfVZ",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:6Wx88Mv6b9ofjKMKkdwOJd",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:1YrnDTqvcnUKxAIeXyaEmU",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5Bpc360LNUScK53FrM8nvB",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0lNudhCTfcGBQVvSO22g4r",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:0dycf6YNODPnjU2B0jbe4o",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:3qOJebD6l8ONfeFFaEg1kU",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:7BkVZRHhZpKfgRtRpbb76j",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5wmkQbOUTLjnDsdLeNgtO3",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:1JcK6hdFLKddUVlm0JQeWj",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:07NXFjiRKwMTUlziRZFBvE",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    },
+    {
+      "spotify_uri": "spotify:track:5lcyIeEfwZTs8Ajw3kdF7P",
+      "priority": "discovery",
+      "spotify_catalog_verified": true,
+      "locked": false
+    }
+  ],
+  "markets": [
+    "CL",
+    "AR",
+    "MX",
+    "ES",
+    "US",
+    "GB"
+  ],
+  "rotation": {
+    "enabled": true,
+    "keep_anchor_tracks": 15,
+    "growth_slots": 30,
+    "discovery_slots": 55
+  },
+  "neuromental": {
+    "intents": [
+      "discovery",
+      "activation",
+      "curiosity"
+    ],
+    "energy_target": 4,
+    "valence_target": 4,
+    "focus_target": 2,
+    "social_energy_target": 3,
+    "sequence_arc": [
+      "discovery",
+      "build",
+      "peak",
+      "release"
+    ],
+    "curation_note": "Move from emerging voices toward a stronger energy peak, preserving room for stylistic discovery."
+  },
+  "world_music": {
+    "playlist_type": "NEXT",
+    "genre_vector": {
+      "rock": 0.5,
+      "indie-rock": 0.5
+    },
+    "subgenre_vector": {
+      "emerging-rock": 1.0
+    },
+    "market_vector": {
+      "CL": 0.1667,
+      "AR": 0.1667,
+      "MX": 0.1667,
+      "ES": 0.1667,
+      "US": 0.1667,
+      "GB": 0.1667
+    },
+    "energy_profile": {
+      "energy_4": 1.0
+    },
+    "tempo_profile": {},
+    "mood_profile": {
+      "discovery": 0.3333,
+      "activation": 0.3333,
+      "curiosity": 0.3333
+    },
+    "artist_stage_profile": {
+      "breakout": 0.1,
+      "emerging": 0.45,
+      "seed": 0.45
+    },
+    "language_profile": {},
+    "turnover_min": 0.2,
+    "turnover_max": 0.4,
+    "refresh_interval_hours_min": 24,
+    "refresh_interval_hours_max": 24,
+    "max_same_artist": 2,
+    "max_position_jump": 26,
+    "freshness_profile": {
+      "0_7_days": 0.3,
+      "8_30_days": 0.5,
+      "31_90_days": 0.2
+    },
+    "mainstream_discovery_balance": 0.95
+  }
+}

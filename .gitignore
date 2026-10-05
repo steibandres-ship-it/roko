@@ -1,0 +1,61 @@
+# App credentials and OAuth material
+.env
+.env.*
+!.env.example
+!.env.docker.example
+tokens/
+*token*.json
+*oauth*.json
+data/.oauth_tokens.json
+data/oauth_tokens.json
+*.token
+*.cache
+data/world_music_os.sqlite3
+data/world_music_os.sqlite3-*
+
+# Generated data, logs, backups, and temporary files
+logs/*
+!logs/.gitkeep
+data/backups/*
+!data/backups/.gitkeep
+*.tmp
+*.log
+
+# Python environments and build products
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Local runtime state and licensed provider observations
+/data/*
+!/data/.gitkeep
+/app/world_music/static/created-playlists.json
+*.sqlite3
+*.sqlite3-*
+*.db
+
+# Personal correspondence and account-specific permissions
+/docs/autorizacion-*.md
+/docs/solicitud-permiso-*
+/docs/soundcharts-rights-confirmation.md
+*.eml
+
+# Archives, private keys and local tooling
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.pem
+*.p12
+*.pfx
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db

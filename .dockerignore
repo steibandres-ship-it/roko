@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/.oauth_tokens.json
+data/oauth_tokens.json
+data/backups/
+logs/*
+*.sqlite3
+*.sqlite3-*
+*.zip
