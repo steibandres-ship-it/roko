@@ -10,6 +10,7 @@ from sqlalchemy.orm import Session, sessionmaker
 
 from ..config import DATA_DIR, PROJECT_ROOT
 from .models import Base
+from . import fan_models, db_indexes, preuser_models  # Register tables and query indexes.
 
 
 def database_url() -> URL | str:

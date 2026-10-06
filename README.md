@@ -513,3 +513,65 @@ python -m pytest
 ~~~
 
 The project can scale to more JSON playlist definitions without changing its architecture. Add one new file per playlist with a unique slug.
+
+## Fans y correos (módulo local)
+
+Abre `/fans` desde la navegación del panel. Usa los artistas existentes del catálogo.
+Permite registrar suscriptores con aceptación explícita, guardar campañas de texto,
+filtrar por origen, confirmar destinatarios y procesar lotes de hasta 20 mensajes.
+Las direcciones son únicas por artista. Una importación no reactiva una baja.
+
+Instalación y migración:
+
+```powershell
+python -m pip install -r requirements.txt
+python -m alembic upgrade head
+python -m uvicorn app.world_music.api:app --host 127.0.0.1 --port 8000
+```
+
+Configura en `.env` un proveedor SMTP con STARTTLS y un remitente verificado:
+
+```dotenv
+FANS_SMTP_HOST=smtp.example.com
+FANS_SMTP_PORT=587
+FANS_SMTP_USER=
+FANS_SMTP_PASSWORD=
+FANS_FROM=Artista <artista@example.com>
+FANS_PUBLIC_URL=https://fans.example.com
+```
+
+La URL pública debe dirigir `/fans/unsubscribe/*` a este servicio para que los
+fans puedan confirmar su baja. No publiques las rutas administrativas: mantienen
+la restricción local y de mismo origen del panel. No configures un proxy para
+hacer aparecer solicitudes externas como locales.
+
+Los estados accepted significan aceptación SMTP, no entrega ni apertura.
+uncertain y sending interrumpido requieren revisión con el proveedor; no se
+reintentan automáticamente para evitar duplicados. El operador procesa los lotes
+con el botón del panel. No hay un worker automático ni métricas de clics todavía.
+El catálogo y el CRM son administrados por un operador local; no existen cuentas
+independientes con autenticación de artistas. La integración con el proveedor de
+pre-save debe registrar aceptación verificable antes de usar la API de contactos.
+Actualmente la captación es manual, con origen y fecha de registro de aceptación.
+
+## Importación masiva de preusuarios
+
+Abre `/preusers` en el panel. Excel `.xlsx`, una hoja, una columna y hasta 50.000
+correos (10 MB). Encabezado opcional: `email` o `correo`. Revisa el resumen y confirma.
+La importación normaliza espacios y mayúsculas, valida sintaxis sin consultas DNS,
+excluye duplicados e inválidos, y registra el historial. Los errores se muestran por
+número de fila, hasta 100 ejemplos. No se almacenan los archivos originales.
+
+`preusers` es un directorio global de registros `pre_registered`, separado de fans,
+suscripciones y Supabase Auth. No crea contraseñas ni envía invitaciones. Un correo
+importado no acredita su titularidad: la futura activación debe verificarlo.
+
+API: POST `/api/preusers/import?preview=true` para revisar y `preview=false` para
+confirmar, cuerpo binario XLSX y cabecera `X-Filename`. Acceso local y mismo origen.
+Los lotes de 500 registros se confirman en una sola transacción, con conflicto por
+correo resuelto sin duplicar. La vista previa no escribe datos. El resumen de la
+confirmación refleja los conflictos reales, incluso con cargas simultáneas.
+
+La migración `a03preusers01` agrega `preusers` y `preuser_imports`. El SQL incremental
+para el Supabase ya instalado es `supabase/preusers_upgrade.sql`. La conexión local
+sigue dependiendo de `WORLD_MUSIC_DATABASE_URL`; sin esa variable, usa SQLite local.

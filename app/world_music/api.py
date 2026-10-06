@@ -830,3 +830,10 @@ def review_lastfm_playlist_candidates(
         raise HTTPException(status_code=403, detail=str(exc)) from None
     finally:
         lastfm.close()
+
+# Fan CRM routes and metadata are loaded after the core API definitions.
+from .fans import router as fans_router
+app.include_router(fans_router)
+
+from .preusers import router as preusers_router
+app.include_router(preusers_router)
